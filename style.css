@@ -2,8 +2,14 @@
 padding: 0;
 box-sizing: border-box;}
 
-html{font-size: 62.5%;}
+html{font-size: 62.5%;
+scroll-behavior: smooth;}
+body{scroll-behavior: smooth;}
 
+
+/* header started  */
+
+/* navbar started */
 
 nav{max-width: 1200px;
 margin: 0 auto;}
@@ -13,7 +19,8 @@ margin: 0 auto;}
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-height: 100vh;}
+height: 100vh;
+background-attachment: fixed;}
 
 
 .heading{font-family: poppins;
@@ -27,3 +34,87 @@ li{list-style: none;}
 font-family: poppins;}
 
 .nav-items:hover{border-bottom: 3px solid #ff2953;}
+/* navbar ended */
+
+
+.heading-2{font-family: poppins;
+font: size 2.8rem ;
+font-weight: 700;
+padding-top: 150px;}
+
+
+.heading-3{font-family: poppins;
+font-size: 4rem;
+font-weight: 700;
+}
+
+
+.heading-4{font-family: poppins;
+font-size: 5.6rem;
+font-weight: 700;}
+
+
+.button{background-color: transparent;
+border: 1px solid white;
+padding: 8px 35px;
+font-size: 1.6rem;
+
+font-family: poppins;
+text-align: center;
+align-items: center;
+margin: 0 auto;
+display: flex;
+color: white;
+margin-top: 35px;
+justify-content: center;}
+
+.button:hover{background-color: white;
+color: gray;
+transition: 0.3s ease-in-out;}
+
+
+/* header ended  */
+
+/* Why us section started  */
+
+.bg-2{background-image: url(./Assets/us-bg.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 700px;
+background-attachment: fixed;}
+
+
+.head-us{font-family: poppins;
+    font-size: 3.2rem;
+    font-weight: 700;
+    padding-top: 100px;}
+    
+    
+    .font{font-family: poppins;}
+    
+    .us-text{font-family: poppins;
+        font-size: 1.6rem;}
+        
+        .flex-b{flex-basis: 25%;}
+        
+        /* Why us section ended  */
+
+/* trainers section started  */
+.bg-3{background-image: url(./Assets/healthy-bg.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 700px;
+background-attachment: fixed;}
+
+
+
+
+
+
+/* trainers section ended  */
+
+
+.trainer{border: 2px solid #ff2953;
+border-radius: 20px;}
