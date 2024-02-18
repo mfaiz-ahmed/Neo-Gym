@@ -118,3 +118,10 @@ background-attachment: fixed;}
 
 .trainer{border: 2px solid #ff2953;
 border-radius: 20px;}
+
+.bg-4{background-image: url(./Assets/trainer-bg.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+height: 700px;}
