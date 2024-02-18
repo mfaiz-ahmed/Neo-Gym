@@ -191,10 +191,31 @@ input{padding: 12px;
 color: black;
 font-size: 3rem;}
 
+input:focus{border: 2px solid #ff2953;
+outline: 0;}
+
 
 textarea{padding: 45px 12px;
     color: black;
     font-size: 3rem;}
+
+textarea:focus{border: 2px solid #ff2953;
+        outline: 0;}    
+
+
+.snd-btn{font-family: kanit;
+color: white;
+background-color: #ff2953;
+font-size: 2rem;
+font-style: italic;
+letter-spacing: 2px;
+padding: 10px 65px;
+border-radius: 10px;}        
+
+.snd-btn:hover{background-color: black;
+    color: #ff2953;
+transition: 0.3s ease-out;}
+
 
     /* contact ended */
 
@@ -206,6 +227,8 @@ footer{background-color: #252233;}
 font-size: 1.6rem;
 color: white;
 font-weight: 300;}
+
+.hover:hover{color: #ff2953;}
 
 .icons{font-size: 2rem;
 background-color: black;
@@ -220,3 +243,19 @@ border-radius: 10px;}
 
 .icons:hover{color: #ff2953;
 transition: 0.3s ease-in-out;}
+
+.footer-heading{color: white;
+font-family:Kanit;
+font-size: 1.9rem;
+font-weight: 700;
+border-bottom: 5px solid #ff2953;
+width: 82px;}
+
+.width{width: 112px;}
+
+
+.link{font-size: 2rem;
+color: #ccc;
+}
+
+.link:hover{color: #ff2953;}
