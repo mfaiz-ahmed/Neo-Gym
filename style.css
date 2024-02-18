@@ -14,7 +14,6 @@ body{scroll-behavior: smooth;}
 nav{max-width: 1200px;
 margin: 0 auto;}
 
-
 .bg-1{background-image: url(./Assets/hero-bg.jpg);
 background-position: center;
 background-repeat: no-repeat;
@@ -113,14 +112,14 @@ background-attachment: fixed;}
 
 
 
-
-
-
-/* trainers section ended  */
-
-
 .trainer{border: 2px solid #ff2953;
-border-radius: 20px;}
+    border-radius: 20px;}
+
+    /* trainers section ended  */
+
+
+
+
 
 
 /* packages section  started */
@@ -129,13 +128,12 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
-height: 1000px;}
+height: 100%;}
 
 .card-bg{background-image: linear-gradient(#df1d44 , #f57f96);}
 
-.card{width: 350px;
-    height: 600px;
-    border-radius: 50px;}
+.card{width: 325px;
+    height: 600px;}
 
 .dumbell{text-align: center;}
 
@@ -151,11 +149,13 @@ color: black;}
 .price{background-color: black;
 color: #ff2953;
 text-align: center;
-padding:5px;}
+padding:5px;
+font-family: poppins;}
 
 .list{text-align: start;
 font-size: 1.6rem;
-background-color: white;}
+background-color: white;
+line-height: 3.5rem;}
 
 .color{color: #ff2953;}
 
@@ -169,5 +169,12 @@ border: 0;
 border-radius: 5px;
 padding:10px;}
 
+.button-2:hover{background-color: black;
+color: #ff2953;
+border: 1px solid #f57f96;
+transition: 0.3s ease-out;}
+
 .center{text-align: center;}
+
+.margin-2{margin-top: 100px;}
 
