@@ -187,10 +187,36 @@ transition: 0.3s ease-out;}
 
 
 input{padding: 12px;
-width: 100%;
-color: black;}
+    width: 400px;
+color: black;
+font-size: 3rem;}
 
 
 textarea{padding: 45px 12px;
-    color: black;}
+    color: black;
+    font-size: 3rem;}
 
+    /* contact ended */
+
+
+footer{background-color: #252233;}    
+
+
+.footer-text{font-family: poppins;
+font-size: 1.6rem;
+color: white;
+font-weight: 300;}
+
+.icons{font-size: 2rem;
+background-color: black;
+color: white;
+width: 40px;
+height: 40px;
+text-align: center;
+padding-top: 10px;
+border-radius: 10px;}
+
+.pointer{cursor: pointer;}
+
+.icons:hover{color: #ff2953;
+transition: 0.3s ease-in-out;}
